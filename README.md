@@ -1,4 +1,7 @@
-Ionic App Base
+#Musical Events Client App
+
+An android app that connects to the [Server](https://github.com/IlFrenk/Musical-Events-App).
+Thanks to [Heroku](https://musical-events.herokuapp.com/) my repo is now online for this client to connect.
 ==============
 
 A starting project for Ionic that optionally supports using custom SCSS.
