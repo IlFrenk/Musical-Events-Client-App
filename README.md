@@ -1,4 +1,4 @@
-#Musical Events Client App
+Musical Events Client App
 ==============
 
 An android app that connects to the [Server](https://github.com/IlFrenk/Musical-Events-App).
