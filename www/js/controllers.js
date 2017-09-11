@@ -40,7 +40,7 @@ function ($scope, $http, $stateParams, $ionicPopup) {
     $scope.data={};
 
             $scope.submit = function () {
-                var link = 'https://musical-events.herokuapp.com/user';
+                var link = 'http://musical-events.herokuapp.com/user';
                 this.nome = $scope.data.nome;
                 this.cognome = $scope.data.cognome;
                 this.email = $scope.data.email;
@@ -206,7 +206,7 @@ function ($scope, $http, $stateParams, $ionicPopup) {
     $scope.data={};
 
             $scope.submit = function () {
-                var link = 'https://musical-events.herokuapp.com/organizzatore';
+                var link = 'http://musical-events.herokuapp.com/organizzatore';
                 this.nome = $scope.data.nome;
                 this.cognome = $scope.data.cognome;
                 this.email = $scope.data.email;
@@ -354,7 +354,7 @@ function ($scope, $http, $stateParams, $ionicPopup, orgCompany) {
     } else {
         var myPopup = $ionicPopup.show({
             title: 'Non hai i permessi per eliminare questo evento',
-            buttons: [{text: 'OK', type: 'button button-positive button-small'}]
+            buttons: [{text: 'OK', type: 'button button-positive button-small'}]                
         });
     }
     }
@@ -369,7 +369,7 @@ function ($scope, $http, $stateParams, $ionicPopup, orgCompany) {
 
 
             $scope.submit = function () {
-                var link = 'https://musical-events.herokuapp.com/events';
+                var link = 'http://musical-events.herokuapp.com/events';
                 artista = $scope.data.artista;
                 luogo = $scope.data.luogo;
                 data = $scope.data.mese + " " + $scope.data.giorno + " " + $scope.data.anno + " " + $scope.data.orario;
