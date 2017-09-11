@@ -1,12 +1,12 @@
-<ion-view title="Events" id="page4">
+<ion-view title="Events" id="page4" hide-back-button="true">
   <ion-content padding="true" class="has-header">
-    <button class="button button-block button-dark button-small" ng-click="logout()">Logout</button> 
+    <button class="button button-block button-dark button-small" ng-click="logout()">Logout</button>
     <ion-list id="events-list2">
       <ion-item ng-repeat="event in events track by $index">
         <div class= "row">
           <div class = "col">
-            <b>Artista: </b><p> 
-            <b>Luogo: </b><p> 
+            <b>Artista: </b><p>
+            <b>Luogo: </b><p>
             <b>Data: </b><p>
             <b>Ora: </b><p>
             <b>Prezzo: </b><p>
@@ -14,8 +14,8 @@
           <div class = "col">
           </div>
           <div class = "col" align="center">
-            {{event.artista}} <p> 
-            {{event.luogo}} <p> 
+            {{event.artista}} <p>
+            {{event.luogo}} <p>
             {{event.data}} <p>
             {{event.ora}} <p>
             {{event.prezzo}}€ <p>
